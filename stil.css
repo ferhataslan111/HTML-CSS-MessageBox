@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: lightyellow;
+}
+
+a{
+	text-decoration: none;
+}
+
+#container{
+	width: 60%;
+	margin: 0px auto;
+}
+
+#inContainer{
+	width: 290px;
+	height: 60px;
+	margin: 0px auto;
+}
+.mesajKutusu{
+	clear: both;
+	margin-top: 10px;
+	background-color: lightsteelblue;
+	width: 290px;
+	height: 60px;
+	border-radius: 15px;
+}
+
+.mesajKutusu:hover{
+	background-color: lavender;
+	cursor: grab;
+}
+
+.mesajKutusu img{
+	width: 50px;
+	height: 50px;
+	border-radius: 35px;
+	float: left;
+	margin: 5px;
+}
+
+span{
+	font-size: 18px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.adSoyad{
+	padding-top: 10px;
+	color: black;
+}
+
+.tarih{
+	padding-top: 5px;
+	font-size: 10px;
+	color: dimgray;
+}
